@@ -1,9 +1,9 @@
 /* Custom Properties from the figma design file. */
 :root {
-  --gray-950: hsl(0, 0, 7);
-  --gray-500: hsl(0, 0, 42);
-  --white: hsl(0, 0, 100);
-  --yellow: hsl(47, 88, 63);
+  --gray-950: hsl(0, 0%, 7%);
+  --gray-500: hsl(0, 0%, 42%);
+  --white: hsl(0, 0%, 100%);
+  --yellow: hsl(47, 88%, 63%);
 
   --text-1_font-size: 1rem;
   --text-1_font-weight: ;
@@ -31,4 +31,3 @@
   --space-150: 12px;
   --space-300: 24px;
 }
-
