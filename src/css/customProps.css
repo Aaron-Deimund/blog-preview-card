@@ -11,24 +11,30 @@
   --space-300: 24px;
 
   --text-1_font-size: 1rem;
-  --text-1_font-weight: ;
+  --text-1_font-weight: 800;
   --text-1_line-height: 150%;
   --text-1_letter-spacing: 0;
 
   --text-2_font-size: 1.2rem;
-  --text-2_font-weight: ;
+  --text-2_font-weight: 100;
   --text-2_line-height: 150%;
   --text-2_letter-spacing: 0;
 
   --text-3_font-size: 0.875rem;
-  --text-3_font-weight: ;
-  --text-3_font-weight-bold: ;
+  --text-3_font-weight: 500;
+  --text-3_font-weight-bold: 700;
   --text-3_line-height: 150%;
   --text-3_letter-spacing: 0;
 }
 
+@font-face {
+	font-family: "figtree";
+	src: url("../assets/fonts/Figtree-VariableFont_wght.ttf");
+}
+
 main {
   color: var(--gray-950);
+  font-family: "figtree";
 }
 
 .text-preset-1,

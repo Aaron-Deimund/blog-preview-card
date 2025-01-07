@@ -15,6 +15,7 @@ body {
 	width: min-content;
 	padding: var(--space-300);
 	filter: drop-shadow(10px 10px 0 var(--gray-950));
+	border: 2px solid black;
 }
 
 .hidden {
@@ -29,12 +30,31 @@ body {
 	}
 }
 
+.tags {
+	width: fit-content;
+	background: var(--yellow);
+	border-radius: 4px;
+	margin-top: var(--space-150);
+	padding: var(--space-50) var(--space-100);
+
+	p {
+		margin: 0;
+	}
+}
+
 .author {
 	display: flex;
 	align-items: center;
 	gap: 10px;
+	margin-top: var(--space-300);
 
 	img {
+		width: 23px;
+		aspect-ratio: 1/1;
 		display: inline;
 	}
+}
+
+footer {
+	margin-top: 15px;
 }
