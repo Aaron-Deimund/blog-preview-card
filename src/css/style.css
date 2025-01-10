@@ -53,8 +53,22 @@ body {
 		aspect-ratio: 1/1;
 		display: inline;
 	}
+
+	a{
+		text-decoration: none;
+	}
 }
 
 footer {
 	margin-top: 15px;
+}
+
+.blog-link,
+.blog-link:hover{
+	color: inherit;
+	text-decoration: none;
+}
+
+.blog-link:hover{	
+	color: var(--yellow);
 }
